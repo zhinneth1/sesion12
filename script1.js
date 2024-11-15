@@ -1,10 +1,13 @@
-let numero = [1,2,3,4,5];
-let suma=0;
-let promedio=0;
-for(let i=0; i < numero.length; i++){
-    suma+=numero[i];
+let numeros = [5,1,8,6,7,8,6,9];
+let sumatoria = 0;
+let promedio = 0;
+ 
+for (let i = 0; i < numeros.length; i++) {
+    sumatoria += numeros[i];    
 }
-
-promedio = suma/numero.length;
-document.getElementById("resultado").value=suma;
-document.getElementById("promedio").value=promedio;
+ 
+promedio = sumatoria / numeros.length;
+ 
+console.log(sumatoria); // Esto debería mostrar el total correcto de la suma
+document.getElementById("resultado").value = sumatoria;
+document.getElementById("promedio").value = promedio;
