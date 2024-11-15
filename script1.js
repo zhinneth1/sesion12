@@ -1,4 +1,4 @@
-let numeros = [5,1,8,6,7,8,6,9];
+let numeros = [1,2,3,4,5];
 let sumatoria = 0;
 let promedio = 0;
  
