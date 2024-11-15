@@ -7,4 +7,4 @@ for(let i=0; i < numero.length; i++){
 
 promedio = suma/numero.length;
 document.getElementById(resultado).value=suma;
-document.getElementById(promedio).value=suma;
+document.getElementById(promedio).value=promedio;
