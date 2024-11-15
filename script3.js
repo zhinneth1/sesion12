@@ -6,5 +6,5 @@ do{
     if(contraseñaingresada != contraseñacorrecta){
         alert("Contraseña errada, intente de nuevo");
     }
-}while(contraseñaingresada == contraseñacorrecta);
+}while(contraseñaingresada !== contraseñacorrecta);
 alert("Su contraseña es correcta.");
