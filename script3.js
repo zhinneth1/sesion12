@@ -7,4 +7,4 @@ do{
         alert("Contraseña errada, intente de nuevo");
     }
 }while(contraseñaingresada == contraseñacorrecta);
-alert("Su contraseña es correcta.")
+alert("Su contraseña es correcta.");
